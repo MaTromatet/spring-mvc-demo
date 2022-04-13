@@ -10,5 +10,8 @@
 
 <h2>Spring demo MVC - Home Page</h2>
 
+<!-- lien vers une request mapping : showForm -->
+<a href="showForm">showForm</a>
+
 </body>
 </html>
