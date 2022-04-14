@@ -33,9 +33,15 @@
 		
 		<br><br>
 		
-		Postal Code (*): <form:input path="postalCode" />
+		Postal Code : <form:input path="postalCode" />
 		<!-- s'affiche que si il y a une erreur dans le formulaire avec la classe CSS .error -->
 		<form:errors path="postalCode" cssClass="error" />
+		
+		<br><br>
+		
+		Course Code : <form:input path="courseCode" />
+		<!-- s'affiche que si il y a une erreur dans le formulaire avec la classe CSS .error -->
+		<form:errors path="courseCode" cssClass="error" />
 		
 		<br><br>
 
