@@ -10,8 +10,13 @@
 
 <h2>Spring demo MVC - Home Page</h2>
 
-<!-- lien vers une request mapping : showForm         -->
-<a href="hello/showForm">showForm</a>
+<!-- lien vers une request mapping : showForm de helloWorld      -->
+<a href="hello/showForm">showForm de HelloWorld</a>
+
+<br><br>
+
+<!-- lien vers une request mapping : showForm de student    -->
+<a href="student/showForm">showForm de student</a>
 
 </body>
 </html>
