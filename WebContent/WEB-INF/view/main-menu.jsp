@@ -18,5 +18,10 @@
 <!-- lien vers une request mapping : showForm de student    -->
 <a href="student/showForm">showForm de student</a>
 
+<br><br>
+
+<!-- lien vers une request mapping : showForm de customer    -->
+<a href="customer/showForm">showForm de student</a>
+
 </body>
 </html>
