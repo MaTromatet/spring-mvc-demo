@@ -49,6 +49,11 @@ public class CustomerController {
 		
 		System.out.println("Free pass: |" + theCustomer.getFreePasses() + "|");
 		
+		/*
+		//Affiche le Binding Result pour pouvoir recuperé le code error et le custom dans le messages.properties 
+		System.out.println("Binding Result " + theBindingResult);
+		*/
+		
 		if (theBindingResult.hasErrors()) {
 			return "customer-form";
 		}
