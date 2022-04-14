@@ -52,6 +52,7 @@ public class CustomerController {
 		/*
 		//Affiche le Binding Result pour pouvoir recuperé le code error et le custom dans le messages.properties 
 		System.out.println("Binding Result " + theBindingResult);
+		
 		*/
 		
 		if (theBindingResult.hasErrors()) {
