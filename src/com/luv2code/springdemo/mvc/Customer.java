@@ -17,6 +17,7 @@ public class Customer {
 	@NotNull(message="is required")
 	@Min(value=0, message="must be greater than or equal to zero")
 	@Max(value=10, message="must be less than or equal to 10")
+	//Attention a ne pas utiliser une variable de type primitive "int" car ca ne pourra pas etre converti de chaines en entiers
 	private Integer freePasses;
 	
 	
