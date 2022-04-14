@@ -47,6 +47,8 @@ public class CustomerController {
 		
 		System.out.println("Last name: |" + theCustomer.getLastName() + "|");
 		
+		System.out.println("Free pass: |" + theCustomer.getFreePasses() + "|");
+		
 		if (theBindingResult.hasErrors()) {
 			return "customer-form";
 		}
