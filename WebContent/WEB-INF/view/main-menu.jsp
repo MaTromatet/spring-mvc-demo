@@ -21,7 +21,7 @@
 <br><br>
 
 <!-- lien vers une request mapping : showForm de customer    -->
-<a href="customer/showForm">showForm de student</a>
+<a href="customer/showForm">showForm de customer</a>
 
 </body>
 </html>

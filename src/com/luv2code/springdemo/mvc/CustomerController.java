@@ -20,8 +20,12 @@ public class CustomerController {
 	// resolve issue for our validation
 	
 	@InitBinder
+	/*les méthodes annotées avec @InitBinder seront appelées en premier par le controller pour toutes les request qu'il recoit,
+	 * en passant dans le WebDataBinder utilisé par le framework.*/
 	public void initBinder(WebDataBinder dataBinder) {
 		
+		//classe définie dans l'API SPRING pour couper les chaines  de caractères et supprimer les espaces vides en début et fin,
+		//true veut dire null si que des espaces vides
 		StringTrimmerEditor stringTrimmerEditor = new StringTrimmerEditor(true);
 		
 		dataBinder.registerCustomEditor(String.class, stringTrimmerEditor);
