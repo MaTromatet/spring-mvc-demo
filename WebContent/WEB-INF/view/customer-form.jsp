@@ -32,6 +32,12 @@
 		<form:errors path="freePasses" cssClass="error" />
 		
 		<br><br>
+		
+		Postal Code (*): <form:input path="postalCode" />
+		<!-- s'affiche que si il y a une erreur dans le formulaire avec la classe CSS .error -->
+		<form:errors path="postalCode" cssClass="error" />
+		
+		<br><br>
 
 		<input type="submit" value="Submit" />
 				
